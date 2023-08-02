@@ -239,6 +239,10 @@ input {
     padding-bottom: 40px !important;
 }
 
+.fs-14 {
+    font-size: var(--fs-14);
+}
+
 .btn-follow {
     color: #1A9FFF;
     font-family: 'Poppins', sans-serif;
@@ -297,6 +301,10 @@ input {
         width: 100%;
         background: inherit;
         padding: 0 !important;
+    }
+
+    .overflow-lg-hidden {
+        overflow-x: hidden !important;
     }
 
     .pl-lg-17 {
