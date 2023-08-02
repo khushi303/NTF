@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NTF</title>
+    <link rel="shortcut icon" href="./assets/images/page-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="min-vh-10">
+        <nav class="pos-fix">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center pt-3 pb-18">
+                    <div class="d-flex align-items-center">
+                        <label for="menu_icon" class="">
+                            <span class="mb_4 w-50 end"></span>
+                            <span class="mb_4"></span>
+                            <span class="mb_4 w-50"></span>
+                        </label>
+                        <input type="checkbox" id="menu_icon" hidden>
+                        <div class="ml-25 ml-lg-0">
+                            <img src="./assets/images/page-logo.png" alt="page-logo" class="w-100 mw-pl">
+                        </div>
+                        <p class="ff-poppins fs-logo fw-700 col-black ml-25 mb-0">NFTsee</p>
+                        <ul class="d-flex gap-4 align-items-center mb-0 small_screen">
+                            <li><a href="" class="ff-poppins fs-2nd fw-400 col-black6">Feed</a></li>
+                            <li><a href="" class="ff-poppins fs-2nd fw-400 col-black6">Wallet</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-flex align-items-center gap-25">
+                        <input type="text" id="search_icon" placeholder="Search here..." name="Search"
+                            class="w-100 mw-315 search d-md-inline-block d-none">
+                        <span class="d-inline-block d-md-none w-100">
+                            <a href="#search_icon" class="s_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M10 18C11.775 17.9996 13.4988 17.4054 14.897 16.312L19.293 20.708L20.707 19.294L16.311 14.898C17.405 13.4997 17.9996 11.7754 18 10C18 5.589 14.411 2 10 2C5.589 2 2 5.589 2 10C2 14.411 5.589 18 10 18ZM10 4C13.309 4 16 6.691 16 10C16 13.309 13.309 16 10 16C6.691 16 4 13.309 4 10C4 6.691 6.691 4 10 4Z"
+                                        fill="black" />
+                                </svg>
+                            </a>
+                        </span>
+
+                        <span class="mw-dmb w-100">
+                            <svg width="40" height="23" viewBox="0 0 40 23" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="40" height="23" rx="11.5" fill="#F0F0F0" />
+                                <rect x="0.5" y="0.5" width="39" height="22" rx="11" stroke="black"
+                                    stroke-opacity="0.2" />
+                                <rect width="23" height="23" rx="11.5" fill="black" />
+                            </svg>
+                        </span>
+                        <img src="./assets/images/nav-photo.png" alt="nav-photo" class="mw-nav-photo w-100">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row pt-50 pb-40 flex-column-reverse flex-lg-row">
+                <div class="col-lg-9 col-12">
+                    <div class="card">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <img src="./assets/images/user-1.png" alt="user-1">
+                                <p class="fs-2nd fw-400 col-black6 ff-poppins pl-17">Jhone doe</p>
+                            </div>
+                            <span><a href="" class="col-black6 fw-700 fs-36">...</a></span>
+                        </div>
+                        <div class="mt-4 w-100 ph-box d-flex justify-content-center">
+                            <img src="./assets/images/user-photo-1.png" alt="user-photo-1" class="w-100">
+                        </div>
+                        <div class="pt-3">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <span class="pl-21">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M14 19C17.771 19 19.657 19 20.828 17.828C22 16.657 22 14.771 22 11C22 7.229 22 5.343 20.828 4.172C19.657 3 17.771 3 14 3H10C6.229 3 4.343 3 3.172 4.172C2 5.343 2 7.229 2 11C2 14.771 2 16.657 3.172 17.828C3.825 18.482 4.7 18.771 6 18.898"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
+                                        stroke="black" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="com-box d-flex mt-4 justify-content-between">
+                            <input type="text" placeholder="Add a comment..." class="com-body w-100">
+                            <button class="btn-post fs-2nd ff-poppins fw-400 pr-25">Post</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <img src="./assets/images/user-2.png" alt="user-2">
+                                <p class="fs-2nd fw-400 col-black6 ff-poppins pl-17">Jhone doe</p>
+                            </div>
+                            <span><a href="" class="col-black6 fw-700 fs-36 d-flex align-items-center">...</a></span>
+                        </div>
+                        <div class="mt-4 w-100 ph-box d-flex justify-content-center">
+                            <img src="./assets/images/user-photo-2.png" alt="user-photo-2" class="mx-auto mw-470 w-100">
+                        </div>
+                        <div class="pt-3">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <span class="pl-21">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M14 19C17.771 19 19.657 19 20.828 17.828C22 16.657 22 14.771 22 11C22 7.229 22 5.343 20.828 4.172C19.657 3 17.771 3 14 3H10C6.229 3 4.343 3 3.172 4.172C2 5.343 2 7.229 2 11C2 14.771 2 16.657 3.172 17.828C3.825 18.482 4.7 18.771 6 18.898"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
+                                        stroke="black" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="com-box d-flex mt-4 justify-content-between">
+                            <input type="text" placeholder="Add a comment..." class="com-body w-100">
+                            <button class="btn-post fs-2nd ff-poppins fw-400 pr-25">Post</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <img src="./assets/images/user-3.png" alt="user-3">
+                                <p class="fs-2nd fw-400 col-black6 ff-poppins pl-17">Jhone doe</p>
+                            </div>
+                            <span><a href="" class="col-black6 fw-700 fs-36 d-flex align-items-center">...</a></span>
+                        </div>
+                        <div class="mt-4 w-100 ph-box d-flex justify-content-center">
+                            <img src="./assets/images/user-photo-3.png" alt="user-photo-3" class="w-100">
+                        </div>
+                        <div class="pt-3">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <span class="pl-21">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M14 19C17.771 19 19.657 19 20.828 17.828C22 16.657 22 14.771 22 11C22 7.229 22 5.343 20.828 4.172C19.657 3 17.771 3 14 3H10C6.229 3 4.343 3 3.172 4.172C2 5.343 2 7.229 2 11C2 14.771 2 16.657 3.172 17.828C3.825 18.482 4.7 18.771 6 18.898"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
+                                        stroke="black" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="com-box d-flex mt-4 justify-content-between">
+                            <input type="text" placeholder="Add a comment..." class="com-body w-100">
+                            <button class="btn-post fs-2nd ff-poppins fw-400 pr-25">Post</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <img src="./assets/images/user-2.png" alt="user-2">
+                                <p class="fs-2nd fw-400 col-black6 ff-poppins pl-17">Jhone doe</p>
+                            </div>
+                            <span><a href="" class="col-black6 fw-700 fs-36 d-flex align-items-center">...</a></span>
+                        </div>
+                        <div class="mt-4 w-100 ph-box d-flex justify-content-center">
+                            <img src="./assets/images/user-photo-4.png" alt="user-photo-4" class="mx-auto mw-470 w-100">
+                        </div>
+                        <div class="pt-3">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <span class="pl-21">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M14 19C17.771 19 19.657 19 20.828 17.828C22 16.657 22 14.771 22 11C22 7.229 22 5.343 20.828 4.172C19.657 3 17.771 3 14 3H10C6.229 3 4.343 3 3.172 4.172C2 5.343 2 7.229 2 11C2 14.771 2 16.657 3.172 17.828C3.825 18.482 4.7 18.771 6 18.898"
+                                        stroke="black" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M14 19C12.764 19 11.402 19.5 10.159 20.145C8.161 21.182 7.162 21.701 6.67 21.37C6.178 21.04 6.271 20.015 6.458 17.966L6.5 17.5"
+                                        stroke="black" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="com-box d-flex mt-4 justify-content-between">
+                            <input type="text" placeholder="Add a comment..." class="com-body w-100">
+                            <button class="btn-post fs-2nd ff-poppins fw-400 pr-25">Post</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <p class="ff-poppins col-black6 fs-2nd fw-400 pb-2">Filters</p>
+                    <form action="" class="d-lg-block d-none">
+                        <div class="pb-1">
+                            <input type="radio" id="most-liked" name="Post" value="Most liked">
+                            <label for="most-liked" class="ff-poppins fs-2nd fw-400 col-black6">Most liked</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Recently" name="Post" value="Recently Received">
+                            <label for="Recently" class="ff-poppins fs-2nd fw-400 col-black6">Recently Received</label>
+                        </div>
+                    </form>
+                    <div class="d-flex gap-25 d-lg-none">
+                        <button class="ff-poppins fw-600 fs-12 btn-ml btn-col w-100">Most Liked</button>
+                        <button class="ff-poppins fw-600 fs-12 btn-rr btn-col w-100">Recently Received</button>
+                    </div>
+                    <p class="ff-poppins col-black6 fs-2nd fw-400 pt-4">Suggestions for you</p>
+                    <div class="pt-3 d-flex flex-lg-column flex-row overflow-x-scroll mb-3 gap-4 gap-lg-0">
+                        <div
+                            class="d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-16 card-1">
+                            <div class="d-flex align-items-center flex-column flex-lg-row pb-2 pb-lg-0">
+                                <img src="./assets/images/user-s-1.png" alt="user-s-1" class="w-100 mw-48 p-1">
+                                <p class="ff-poppins fs-2nd fw-400 col-black pl-lg-17 wh-space">Jhone doe</p>
+                            </div>
+                            <button class="btn-follow pb">Follow</button>
+                        </div>
+                        <div
+                            class="d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-16 card-1">
+                            <div class="d-flex align-items-center flex-column flex-lg-row pb-2 pb-lg-0">
+                                <img src="./assets/images/user-1.png" alt="user-1" class="w-100 mw-48 p-1">
+                                <p class="ff-poppins fs-2nd fw-400 col-black pl-lg-17 wh-space">Jhone doe</p>
+                            </div>
+                            <button class="btn-follow pb">Follow</button>
+                        </div>
+                        <div
+                            class="d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-16 card-1">
+                            <div class="d-flex align-items-center flex-column flex-lg-row pb-2 pb-lg-0">
+                                <img src="./assets/images/user-s-3.png" alt="user-s-3" class="w-100 mw-48 p-1">
+                                <p class="ff-poppins fs-2nd fw-400 col-black pl-lg-17 wh-space">Jhone doe</p>
+                            </div>
+                            <button class="btn-follow pb">Follow</button>
+                        </div>
+                        <div
+                            class="d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-16 card-1">
+                            <div class="d-flex align-items-center flex-column flex-lg-row pb-2 pb-lg-0">
+                                <img src="./assets/images/user-s-4.png" alt="user-s-4" class="w-100 mw-48 p-1">
+                                <p class="ff-poppins fs-2nd fw-400 col-black pl-lg-17 wh-space">Jhone doe</p>
+                            </div>
+                            <button class="btn-follow pb">Follow</button>
+                        </div>
+                        <div
+                            class="d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-16 card-1">
+                            <div class="d-flex align-items-center flex-column flex-lg-row pb-2 pb-lg-0">
+                                <img src="./assets/images/user-s-5.png" alt="user-s-5" class="w-100 mw-48 p-1">
+                                <p class="ff-poppins fs-2nd fw-400 col-black pl-lg-17 wh-space">Jhone doe</p>
+                            </div>
+                            <button class="btn-follow pb">Follow</button>
+                        </div>
+                        <div
+                            class="d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-16 card-1">
+                            <div class="d-flex align-items-center flex-column flex-lg-row pb-2 pb-lg-0">
+                                <img src="./assets/images/user-s-6.png" alt="user-s-6" class="w-100 mw-48 p-1">
+                                <p class="ff-poppins fs-2nd fw-400 col-black pl-lg-17 wh-space">Jhone doe</p>
+                            </div>
+                            <button class="btn-follow">Follow</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.responsive').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 6,
+            slidesToScroll: 2,
+            responsive: [
+                {
+                    breakpoint: 700,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 550,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 400,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>

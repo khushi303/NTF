@@ -1,0 +1,25 @@
+:root {
+    --fs-12: 12px;
+    --fs-sm: 18px;
+    --fs-2nd: 12px;
+    --fs-36: 36px;
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-700: 700;
+    --ff-poppins: 'poppins', sans-serif;
+    --mw-pl: 32px;
+    --mw-dmb: 25px;
+    --mw-nav-photo: 36px;
+    --mw-search: 24px;
+}
+
+@media (min-width:576px) {
+    :root {
+        --fs-sm: 36px;
+        --fs-2nd: 18px;
+        --mw-pl: 60px;
+        --mw-dmb: 40px;
+        --mw-nav-photo: 57px;
+        --mw-search: 34px;
+    }
+}
